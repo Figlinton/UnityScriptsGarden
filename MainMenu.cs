@@ -14,7 +14,7 @@ public class MainMenu : MonoBehaviour
 
     public void ExitGame()
     {
-        Debug.Log("Game over");
+        Debug.Log("Exit Game");
         Application.Quit();
     }
 }

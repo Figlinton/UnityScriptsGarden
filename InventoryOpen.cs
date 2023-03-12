@@ -29,12 +29,10 @@ public class InventoryOpen : MonoBehaviour
         if (isInventoryMenu)
         {
             inventoryMenu.SetActive(true);
-            Cursor.lockState = CursorLockMode.None;
         }
         else
         {
             inventoryMenu.SetActive(false);
-            Cursor.lockState = CursorLockMode.Locked;
         }
     }
 }
